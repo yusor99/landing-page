@@ -64,7 +64,7 @@ const Home = () => {
           <Cards />
         </section>
         <section className="home-cover">
-          <img src="/img/image.png" alt="img" />
+          <img src="img/image.png" alt="img" />
           <div
             className="overlay"
             style={{ backgroundColor: "rgba(21,116,185,0.3)" }}
