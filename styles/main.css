@@ -1,0 +1,165 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.mobile-nav {
+  display: none;
+}
+.navbar-desktop {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+.nav-ul {
+  flex: 40%;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-view {
+  width: 221px;
+  border-radius: 36px;
+  color: rgb(255, 255, 255);
+  background-color: #325dff;
+  border: none;
+  padding: 17px 30px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  font-weight: 600;
+  outline: none;
+  height: 59px;
+}
+.nav-ul li small {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.nav-ul li:hover {
+  text-shadow: 2px -2px 20px #f8f8f8;
+  transition: all 0.1s ease-in-out;
+}
+
+.logo {
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex: 60%;
+}
+
+.home-cover {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  max-height: fit-content;
+}
+.home-cover img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.home-cover .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #1505ff44;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  margin-top: 160px;
+  z-index: 11;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.des {
+  display: flex;
+  color: white;
+  font-weight: 300;
+  font-size: 65px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+.card {
+  flex-direction: column;
+  border: 1px solid #e1e1e1b5;
+  flex: 23.1%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  margin: 10px;
+  padding: 40px 0px;
+  background-color: white;
+}
+.card h5 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.card span {
+  color: white !important;
+  background-color: #325dff;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 20px;
+}
+.card small {
+  color: rgba(0, 0, 0, 0.65);
+  max-width: 170px;
+}
+.cards {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.aside {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+.aside .head {
+  align-items: flex-start;
+  flex: 20%;
+  margin: 0px;
+  padding-left: 5%;
+}
+.aside .des {
+  color: black;
+  font-size: 40px;
+  max-width: 400px;
+}
+.footer {
+  padding: 40px;
+  background-color: #325dff;
+  color: rgba(255, 255, 255, 0.521);
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
