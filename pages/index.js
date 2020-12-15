@@ -26,7 +26,7 @@ const Home = () => {
                   style={{
                     color: "rgba(255, 255, 255, 0.70)",
                     fontWeight: 400,
-                    fontSize: 14,
+                    fontSize: 18,
                   }}
                 >
                   <span style={{ marginLeft: "10%" }}>

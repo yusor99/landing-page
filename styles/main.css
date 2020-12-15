@@ -26,18 +26,18 @@
   cursor: pointer;
 }
 .btn-view {
-  width: 221px;
-  border-radius: 36px;
+  width: 300px;
+  border-radius: 46px;
   color: rgb(255, 255, 255);
   background-color: #325dff;
   border: none;
   padding: 17px 30px;
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: 2px;
-  margin-top: 30px;
-  font-weight: 600;
+  margin-top: 50px;
+  font-weight: 500;
   outline: none;
-  height: 59px;
+  height: 69px;
 }
 .nav-ul li small {
   font-size: 14px;
@@ -94,7 +94,7 @@
   display: flex;
   color: white;
   font-weight: 300;
-  font-size: 65px;
+  font-size: 95px;
   margin-top: 10px;
   margin-bottom: 13px;
 }
